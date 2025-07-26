@@ -142,3 +142,44 @@ Default parameters allow you to specify a default value for a parameter in a fun
 #### Function rest parameters
 In TypeScript, rest parameters allow a function to accept an indefinite number of arguments as an array. This is useful when you don’t know in advance how many arguments a function might receive.
 
+#### Arrow functions
+Arrow functions are a shorthand syntax for defining functions in JavaScript. They provide a more concise way to write functions and are especially useful when working with higher-order functions.
+
+#### void and never
+The void type is used to indicate that a function does not return a value.
+The never type is used to indicate that a function will never return a value.
+
+#### Union Types
+It means that the type of a variable can be one of several types.
+
+#### Literal Types
+Literal types in TypeScript are types that represent exact values rather than general types like string, number, or boolean.
+
+They let you specify that a variable or parameter can only hold a specific value, not just any value of a type.
+
+#### Type aliases
+Type aliases are a way to create new names for existing types. They allow you to give a type a more descriptive name and make it easier to understand.
+
+#### Intersection Types
+Intersection types in TypeScript allow you to combine multiple types into a single type. This is useful when you want to represent a value that is both a string and a number.
+
+#### Tuple in TypeScript
+Tuples are a special type in TypeScript that allow you to define an array with:
+
+A fixed number of elements
+Known, ordered types for each element
+This is stricter than a regular array and useful when the position matters and each position has a different type.
+
+#### Enums
+Enums in TypeScript are a way to define a type that has a fixed set of values. They are useful when you want to represent a set of related values that are not related to each other.
+
+#### Interfaces
+Interfaces in TypeScript are a way to define a contract for an object. They allow you to specify the properties and methods that an object must have, but not the implementation details.
+
+#### Interface vs Class
+
+Feature	                            interface	                 class
+Define method names/types	        ✅ Yes	                    ✅ Yes
+Provide method logic	            ❌ No	                    ✅ Yes
+Used at runtime	                    ❌ Erased after compile	    ✅ Exists and runs
+
