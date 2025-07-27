@@ -183,3 +183,4 @@ Define method names/types	        ✅ Yes	                    ✅ Yes
 Provide method logic	            ❌ No	                    ✅ Yes
 Used at runtime	                    ❌ Erased after compile	    ✅ Exists and runs
 
+>Note: You can only define the structure in Interace but you can perform operations in Class not in Interface
